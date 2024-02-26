@@ -4,6 +4,8 @@ import { Link, A } from '@vercel/examples-ui'
 const Navbar: FC<{ isDocsApp?: boolean }> = ({ isDocsApp }) =>
   isDocsApp ? (
     <ul className="inline-flex mb-4">
+      slam
+      
       <li>
         <A href="/">Home (Multi Zones)</A>
       </li>
